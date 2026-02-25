@@ -146,6 +146,12 @@ body {
   gap: 30px;
 }
 
+.toggle{
+  background-color: rgb(158, 180, 58);
+  
+}
+
+
 .card {
   background-color: white;
   padding: 30px;
