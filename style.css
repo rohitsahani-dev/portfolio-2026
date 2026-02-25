@@ -147,8 +147,21 @@ body {
 }
 
 .toggle{
-  background-color: rgb(158, 180, 58);
-  
+  background-color: rgb(29, 145, 174);
+  color: white;
+  font-weight: bolder;
+  padding: 6px;
+  border-radius: 5px;
+  border-style: none;
+  text-align: center;
+  font-size: 14px;
+}
+.toggle:hover{
+  background-color: black;
+}
+
+.toggle:after{
+  background-color: black;
 }
 
 
@@ -197,6 +210,18 @@ footer {
     grid-template-columns: 1fr; /* Single column on small screens */
   }
 }
+
+.dark {
+    background-color: #121212;
+    color: #f5f5f5;
+}
+
+.dark .navbar,
+.dark footer,
+.dark .card {
+    background-color: #1e1e1e;
+}
+
 
 /* Extra small devices (phones) */
 @media (max-width: 480px) {
