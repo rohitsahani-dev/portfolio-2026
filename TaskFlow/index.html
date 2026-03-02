@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TaskFlow - Smart Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<button id="themeToggle">🌙</button>
+
+<div class="container">
+
+    <h1>TaskFlow</h1>
+    <p id="counter">0/0 completed</p>
+
+    <div class="input-area">
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <button id="addBtn">Add</button>
+    </div>
+
+    <div class="filters">
+        <button onclick="filterTasks('all')">All</button>
+        <button onclick="filterTasks('active')">Active</button>
+        <button onclick="filterTasks('completed')">Completed</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
