@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Rohit Sahani</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button id="theme-toggle" class="toggle">Dark-mode</button>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Ai-Powered Full Stack Development</h1>
+        <p>I builed scalable web application and intalligent systems.</p><br>
+        <div class="nav-links">
+        <a href="#projects"><button class="btn"> View Projects</button></a>
+    </div>
+    </section>
+
+    <section class="about" id="about">
+        <!-- Text Column -->
+        <div class="about-text">
+            <span class="sub-heading">About Me</span>
+            <h2>Rohit Sahani — Bridging Technology & Innovation</h2>
+
+            <p>
+                I am a <strong>BIT student at BIC College</strong> with a solid
+                academic foundation from <strong>BKVM</strong>. Based in the heart of
+                Biratnagar, I am a passionate developer dedicated to building the next
+                generation of intelligent web applications.
+            </p>
+
+            <p>
+                My journey in tech is driven by a deep curiosity. I specialize in
+                <strong>Frontend Architecture</strong> and am currently expanding my
+                expertise into <strong>Backend Systems</strong>.
+            </p>
+
+            <div class="skills-container">
+                <h3>Technical Expertise</h3>
+                <div class="tech-stack">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">HTML5 & CSS3</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">SQL Databases</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Column -->
+        <div class="about-image">
+            <div class="image-placeholder">
+                <img src="TaskFlow/assets/IMG_20260301_090654.jpg" alt="Rohit Sahani" />
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="sub-heading">Projects</h2>
+        <div class="project-grid">
+            <a href="TaskFlow/index.html">
+                <div class="card">Todo App</div>
+            </a>
+            <a href="#">
+                <div class="card">Project 2</div>
+            </a>
+            <a href="#">
+                <div class="card">Project 3</div>
+            </a>
+            <a href="#">
+                <div class="card">Project 4</div>
+            </a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <!-- Contact Info Side -->
+            <div class="contact-info">
+                <span class="sub-heading">Get In Touch</span>
+                <h2>Let's build something great together.</h2>
+                <p>
+                    I'm currently available for freelance work and full-time
+                    opportunities. Reach out if you have a project in mind!
+                </p>
+
+                <div class="info-item">
+                    <span class="info-label">Location</span>
+                    <p>Biratnagar 12, Krishna Marg, Morang</p>
+                </div>
+
+                <div class="info-item">
+                    <span class="info-label">Email</span>
+                    <p>
+                        <a href="mailto:rohit.sahani.dev@gmail.com" class="emailAddress">rohit.sahani.dev@gmail.com</a>
+                    </p>
+                </div>
+
+                <div class="social-links-contact">
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="https://github.com/rohitsahani-dev" class="social-icon">GitHub</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                </div>
+            </div>
+
+            <!-- Contact Form Side -->
+            <div class="contact-form-card">
+                <form action="#" method="POST" id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Project Inquiry" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                            required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Brand Section -->
+            <div class="footer-brand">
+                <div class="logo">Rohit Sahani</div>
+                <p>
+                    Crafting high-performance web applications and intelligent AI-driven
+                    systems. Let's build something extraordinary together.
+                </p>
+            </div>
+
+            <!-- Links Section -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Section -->
+            <div class="footer-social">
+                <h3>Connect</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/rohitsahani-dev" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Copyright -->
+        <div class="footer-bottom">
+            <p>© 2026 Rohit Sahani. All rights reserved.</p>
+            <p>Built with ❤️ in Biratnagar</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
